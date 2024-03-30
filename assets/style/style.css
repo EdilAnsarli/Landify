@@ -1,0 +1,1779 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 72px;
+}
+header #navbar {
+  width: 90%;
+  margin: 0 auto;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header #navbar .leftSideSVG {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+header #navbar .leftSideSVG ul {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  align-items: center;
+}
+header #navbar .leftSideSVG ul li {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #111827;
+}
+header #navbar .rightSideSVG {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 16px;
+}
+header #navbar .rightSideSVG .threeLines {
+  display: none;
+}
+
+@media screen and (max-width: 1050px) {
+  header #navbar .leftSideSVG ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+  }
+  header #navbar .rightSideSVG {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  header #navbar .rightSideSVG .threeLines {
+    display: none;
+  }
+}
+@media screen and (max-width: 1000px) {
+  header .leftSideSVG ul li {
+    display: none;
+  }
+}
+@media screen and (max-width: 900px) {
+  header #navbar .rightSideSVG {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  header #navbar .rightSideSVG .threeLines {
+    display: block;
+  }
+}
+@media screen and (max-width: 769px) {
+  header #navbar .rightSideSVG {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 550px) {
+  header #navbar .rightSideSVG {
+    display: flex;
+    justify-content: flex-end;
+  }
+  header #navbar .rightSideSVG .googlePlay {
+    display: none;
+  }
+  header #navbar .rightSideSVG .appStore {
+    display: none;
+  }
+}
+@media screen and (max-width: 376px) {
+  header #navbar {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header #navbar .leftSideSVG {
+    display: flex;
+    justify-content: center;
+  }
+  header #navbar .rightSideSVG {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+#easiestIphoneX {
+  width: 90%;
+  display: flex;
+  margin: 70px auto;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+#easiestIphoneX .easy {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 100px;
+}
+#easiestIphoneX .easy h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -2.5%;
+  color: rgb(17, 24, 39);
+}
+#easiestIphoneX .easy p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgb(55, 65, 81);
+}
+#easiestIphoneX .easy .getWatch {
+  display: flex;
+  gap: 40px;
+}
+#easiestIphoneX .easy .getWatch button {
+  width: 138px;
+  height: 56px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  border-radius: 8px;
+  border: none;
+  margin: 16px, 24px, 16px, 24px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(124, 58, 237);
+  cursor: pointer;
+}
+#easiestIphoneX .easy .getWatch .watch {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 179px;
+  height: 56px;
+}
+#easiestIphoneX .easy .getWatch .watch a {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(124, 58, 237);
+}
+#easiestIphoneX .iphoneX {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+#easiestIphoneX .iphoneX img {
+  margin-left: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 290px;
+  height: 640px;
+  background-image: url(/assets/images/Mobile.png);
+  background-size: cover;
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
+}
+
+@media screen and (max-width: 900px) {
+  #easiestIphoneX {
+    width: 90%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    gap: unset;
+  }
+  #easiestIphoneX .easy {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  #easiestIphoneX .easy h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: rgb(17, 24, 39);
+  }
+  #easiestIphoneX .easy p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(55, 65, 81);
+  }
+  #easiestIphoneX .easy .getWatch {
+    display: flex;
+    gap: 16px;
+  }
+  #easiestIphoneX .easy .getWatch .watch {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 179px;
+    height: 56px;
+  }
+  #easiestIphoneX .easy .getWatch .watch a {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(124, 58, 237);
+  }
+  #easiestIphoneX .iphoneX {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #easiestIphoneX .iphoneX img {
+    margin-left: unset;
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 290px;
+    height: 640px;
+    background-image: url(/assets/images/Mobile.png);
+    background-size: cover;
+    -webkit-clip-path: inset(0 0 0 0);
+            clip-path: inset(0 0 0 0);
+  }
+}
+@media screen and (max-width: 769px) {
+  #easiestIphoneX {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: unset;
+  }
+  #easiestIphoneX .easy {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 40px 0;
+  }
+  #easiestIphoneX .easy h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: rgb(17, 24, 39);
+  }
+  #easiestIphoneX .easy .getWatch {
+    display: flex;
+    gap: 16px;
+  }
+  #easiestIphoneX .easy .getWatch .watch {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 179px;
+    height: 56px;
+  }
+  #easiestIphoneX .easy .getWatch .watch a {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(124, 58, 237);
+  }
+  #easiestIphoneX .iphoneX {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #easiestIphoneX .iphoneX img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 290px;
+    height: 640px;
+    background-image: url(/assets/images/Mobile.png);
+    background-size: cover;
+    -webkit-clip-path: inset(0 0 0 0);
+            clip-path: inset(0 0 0 0);
+  }
+}
+@media screen and (max-width: 551px) {
+  #easiestIphoneX {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: unset;
+  }
+  #easiestIphoneX .easy {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 40px 0;
+  }
+  #easiestIphoneX .easy h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: rgb(17, 24, 39);
+  }
+  #easiestIphoneX .easy .getWatch {
+    display: flex;
+    gap: 16px;
+  }
+  #easiestIphoneX .easy .getWatch .watch {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 179px;
+    height: 56px;
+  }
+  #easiestIphoneX .easy .getWatch .watch a {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(124, 58, 237);
+  }
+  #easiestIphoneX .iphoneX {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #easiestIphoneX .iphoneX img {
+    width: 290px;
+    height: 640px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    box-shadow: 24px 48px -12px rgba(17, 24, 39, 0.25);
+  }
+}
+@media screen and (max-width: 376px) {
+  #easiestIphoneX {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  #easiestIphoneX .easy {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  #easiestIphoneX .easy h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: rgb(17, 24, 39);
+  }
+  #easiestIphoneX .easy .getWatch {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+  #easiestIphoneX .easy .getWatch .watch {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 179px;
+    height: 56px;
+  }
+  #easiestIphoneX .easy .getWatch .watch a {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(124, 58, 237);
+  }
+  #easiestIphoneX .iphoneX {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+.border {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.border hr {
+  width: 85%;
+  border-top: 1px solid rgb(229, 231, 235);
+}
+
+#companies {
+  width: 100%;
+  margin: 40px auto;
+}
+#companies ul {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+}
+
+@media screen and (max-width: 1000px) {
+  #companies {
+    width: 90%;
+  }
+  #companies ul {
+    flex-wrap: wrap;
+  }
+}
+.bgImage {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 820px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media screen and (max-width: 769px) {
+  .bgImage {
+    height: 500px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+#TailorLogos {
+  width: 100%;
+  margin: 96px auto;
+}
+#TailorLogos .tailor {
+  width: 55%;
+  margin: 64px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+#TailorLogos .tailor h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -2.5%;
+  text-align: center;
+  color: rgb(17, 24, 39);
+}
+#TailorLogos .tailor p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: rgb(17, 24, 39);
+}
+#TailorLogos .logos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 64px;
+}
+#TailorLogos .logos .smallBox {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+#TailorLogos .logos .smallBox h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  color: rgb(17, 24, 39);
+}
+#TailorLogos .logos .smallBox p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: rgb(55, 65, 81);
+}
+
+@media screen and (max-width: 901px) {
+  #TailorLogos .tailor {
+    width: 90%;
+  }
+  #TailorLogos .logos {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 769px) {
+  #TailorLogos .tailor h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+  }
+  #TailorLogos .tailor p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  #TailorLogos .logos .smallBox {
+    width: 42%;
+  }
+  #TailorLogos .logos .smallBox h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  #TailorLogos .logos .smallBox p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 531px) {
+  #TailorLogos .smallBox {
+    width: 60% !important;
+  }
+}
+@media screen and (max-width: 376px) {
+  #TailorLogos {
+    gap: 48px;
+  }
+  #TailorLogos .logos {
+    gap: 48px;
+  }
+  #TailorLogos .logos .smallBox {
+    width: 81% !important;
+  }
+}
+#RealArticles {
+  width: 100%;
+  height: 892px;
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  background-color: rgb(213, 250, 252);
+  position: relative;
+}
+#RealArticles img {
+  width: 142px;
+  height: 116px;
+  position: absolute;
+  top: -58px;
+  left: -108px;
+  opacity: 30%;
+  z-index: 1;
+}
+#RealArticles .real {
+  width: 50%;
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+#RealArticles .real .any {
+  width: 520px;
+  height: 156px;
+  position: absolute;
+  top: 45px;
+  left: 145px;
+}
+#RealArticles .real .any h4 {
+  position: relative;
+  z-index: 2;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -2.5%;
+  color: rgb(17, 24, 39);
+}
+#RealArticles .real .any p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(17, 24, 39);
+}
+#RealArticles .articles {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+#RealArticles .articles .a1 {
+  width: 488px;
+  height: 312px;
+  position: absolute;
+  top: 196px;
+  left: 736px;
+}
+#RealArticles .articles .a2 {
+  width: 384px;
+  height: 396px;
+  position: absolute;
+  top: 340px;
+  left: 320px;
+}
+#RealArticles .articles .a3 {
+  width: 384px;
+  height: 256px;
+  position: absolute;
+  top: 540px;
+  left: 736px;
+}
+#RealArticles .articles .pieces {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 32px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+}
+#RealArticles .articles .pieces .x1 {
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+}
+#RealArticles .articles .pieces .x1 .text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+#RealArticles .articles .pieces .x1 .text p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgb(17, 24, 39);
+}
+#RealArticles .articles .pieces .x1 .text .whoWork {
+  display: flex;
+  flex-direction: column;
+}
+#RealArticles .articles .pieces .x1 .text .whoWork h5 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgb(17, 24, 39);
+}
+#RealArticles .articles .pieces .x1 .text .whoWork span {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgb(107, 114, 128);
+}
+#RealArticles .articles .pieces .signText {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+#RealArticles .articles .pieces .signText .text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+#RealArticles .articles .pieces .signText .text p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgb(17, 24, 39);
+}
+#RealArticles .articles .pieces .signText .text .whoWork {
+  display: flex;
+  flex-direction: column;
+}
+#RealArticles .articles .pieces .signText .text .whoWork h5 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgb(17, 24, 39);
+}
+#RealArticles .articles .pieces .signText .text .whoWork span {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgb(107, 114, 128);
+}
+
+@media screen and (max-width: 1300px) {
+  #RealArticles {
+    width: 100%;
+    height: unset;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    background-color: rgb(213, 250, 252);
+    position: unset;
+  }
+  #RealArticles img {
+    width: 96px;
+    height: 78px;
+    position: absolute;
+    top: -32px;
+    left: -8px;
+    opacity: 30%;
+    z-index: 1;
+  }
+  #RealArticles .real {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  #RealArticles .real .any {
+    width: unset;
+    height: unset;
+    position: unset;
+    top: unset;
+    left: unset;
+  }
+  #RealArticles .real .any h4 {
+    z-index: 2;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: -2.5%;
+    color: rgb(17, 24, 39);
+  }
+  #RealArticles .real .any p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(17, 24, 39);
+  }
+  #RealArticles .articles {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  #RealArticles .articles .a1 {
+    width: unset;
+    height: unset;
+    position: unset;
+    top: unset;
+    left: unset;
+  }
+  #RealArticles .articles .a2 {
+    width: unset;
+    height: unset;
+    position: unset;
+    top: unset;
+    left: unset;
+  }
+  #RealArticles .articles .a3 {
+    width: unset;
+    height: unset;
+    position: unset;
+    top: unset;
+    left: unset;
+  }
+  #RealArticles .articles .pieces {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 32px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+  }
+  #RealArticles .articles .pieces .x1 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+  }
+  #RealArticles .articles .pieces .x1 .text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  #RealArticles .articles .pieces .x1 .text p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(17, 24, 39);
+  }
+  #RealArticles .articles .pieces .x1 .text .whoWork {
+    display: flex;
+    flex-direction: column;
+  }
+  #RealArticles .articles .pieces .x1 .text .whoWork h5 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(17, 24, 39);
+  }
+  #RealArticles .articles .pieces .x1 .text .whoWork span {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(107, 114, 128);
+  }
+  #RealArticles .articles .pieces .signText {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+  #RealArticles .articles .pieces .signText .text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  #RealArticles .articles .pieces .signText .text p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(17, 24, 39);
+  }
+  #RealArticles .articles .pieces .signText .text .whoWork {
+    display: flex;
+    flex-direction: column;
+  }
+  #RealArticles .articles .pieces .signText .text .whoWork h5 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(17, 24, 39);
+  }
+  #RealArticles .articles .pieces .signText .text .whoWork span {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(107, 114, 128);
+  }
+}
+@media screen and (max-width: 769px) {
+  #RealArticles {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    background-color: rgb(213, 250, 252);
+  }
+  #RealArticles img {
+    width: 96px;
+    height: 78px;
+    position: absolute;
+    top: -32px;
+    left: -8px;
+    opacity: 30%;
+    z-index: 1;
+  }
+  #RealArticles .real {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  #RealArticles .real h4 {
+    position: relative;
+    z-index: 2;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: -2.5%;
+    color: rgb(17, 24, 39);
+  }
+  #RealArticles .real p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(17, 24, 39);
+  }
+  #RealArticles .articles {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  #RealArticles .articles .pieces {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 32px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+  }
+  #RealArticles .articles .pieces .x1 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+  }
+  #RealArticles .articles .pieces .x1 .text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  #RealArticles .articles .pieces .x1 .text p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(17, 24, 39);
+  }
+  #RealArticles .articles .pieces .x1 .text .whoWork {
+    display: flex;
+    flex-direction: column;
+  }
+  #RealArticles .articles .pieces .x1 .text .whoWork h5 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(17, 24, 39);
+  }
+  #RealArticles .articles .pieces .x1 .text .whoWork span {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(107, 114, 128);
+  }
+  #RealArticles .articles .pieces .signText {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+  #RealArticles .articles .pieces .signText .text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  #RealArticles .articles .pieces .signText .text p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(17, 24, 39);
+  }
+  #RealArticles .articles .pieces .signText .text .whoWork {
+    display: flex;
+    flex-direction: column;
+  }
+  #RealArticles .articles .pieces .signText .text .whoWork h5 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(17, 24, 39);
+  }
+  #RealArticles .articles .pieces .signText .text .whoWork span {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(107, 114, 128);
+  }
+}
+@media screen and (max-width: 376px) {
+  #RealArticles {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    background-color: rgb(213, 250, 252);
+  }
+  #RealArticles img {
+    width: 96px;
+    height: 78px;
+    position: absolute;
+    top: -32px;
+    left: -8px;
+    opacity: 30%;
+    z-index: 1;
+  }
+  #RealArticles .real {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  #RealArticles .real h4 {
+    position: relative;
+    z-index: 2;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: rgb(17, 24, 39);
+  }
+  #RealArticles .real p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(17, 24, 39);
+  }
+  #RealArticles .articles {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  #RealArticles .articles .pieces {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 32px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+  }
+  #RealArticles .articles .pieces .signText {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+  #RealArticles .articles .pieces .signText .x1 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+  }
+  #RealArticles .articles .pieces .signText .x1 .text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  #RealArticles .articles .pieces .signText .x1 .text p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(17, 24, 39);
+  }
+  #RealArticles .articles .pieces .signText .x1 .text .whoWork {
+    display: flex;
+    flex-direction: column;
+  }
+  #RealArticles .articles .pieces .signText .x1 .text .whoWork h5 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(17, 24, 39);
+  }
+  #RealArticles .articles .pieces .signText .x1 .text .whoWork span {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(107, 114, 128);
+  }
+  #RealArticles .articles .pieces .signText .text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  #RealArticles .articles .pieces .signText .text p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(17, 24, 39);
+  }
+  #RealArticles .articles .pieces .signText .text .whoWork {
+    display: flex;
+    flex-direction: column;
+  }
+  #RealArticles .articles .pieces .signText .text .whoWork h5 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(17, 24, 39);
+  }
+  #RealArticles .articles .pieces .signText .text .whoWork span {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(107, 114, 128);
+  }
+}
+#OurStatistics {
+  width: 90%;
+  margin: 80px auto;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+#OurStatistics .our {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+#OurStatistics .our h6 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -2.5%;
+  color: rgb(17, 24, 39);
+}
+#OurStatistics .our p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgb(17, 24, 39);
+}
+#OurStatistics .statistics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+#OurStatistics .statistics .box {
+  width: 280px;
+  height: 69px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+}
+#OurStatistics .statistics .box .explanation {
+  display: flex;
+  flex-direction: column;
+}
+#OurStatistics .statistics .box .explanation p {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  letter-spacing: -2.5%;
+  color: rgb(17, 24, 39);
+}
+#OurStatistics .statistics .box .explanation span {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(17, 24, 39);
+}
+
+@media screen and (max-width: 1100px) {
+  #OurStatistics {
+    flex-wrap: wrap;
+    gap: 56px;
+  }
+  #OurStatistics .our {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  #OurStatistics .statistics {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 40px;
+  }
+  #OurStatistics .statistics .box {
+    width: 328px;
+    height: 64px;
+    gap: 16px;
+  }
+}
+@media screen and (max-width: 774px) {
+  #OurStatistics .our h6 {
+    font-size: 36px;
+    line-height: 45px;
+  }
+  #OurStatistics .statistics {
+    gap: 35px;
+  }
+  #OurStatistics .statistics .box .explanation p {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 376px) {
+  #OurStatistics {
+    gap: 48px;
+  }
+  #OurStatistics .our h6 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  #OurStatistics .our p {
+    font-size: 17px;
+    line-height: 24px;
+  }
+  #OurStatistics .statistics {
+    gap: 24px;
+  }
+  #OurStatistics .statistics .box .explanation p {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  #OurStatistics .statistics .box .explanation span {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+#IntegrationHalfCircle {
+  width: 90%;
+  margin: 80px auto;
+  border-top: 1px solid rgb(243, 244, 246);
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+#IntegrationHalfCircle .integration {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 40px 0;
+  width: 488px;
+  height: 264px;
+}
+#IntegrationHalfCircle .integration h5 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -2.5%;
+  color: rgb(17, 24, 39);
+}
+#IntegrationHalfCircle .integration p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgb(17, 24, 39);
+}
+#IntegrationHalfCircle .halfCircle {
+  position: relative;
+  width: 696px;
+  height: 270px;
+}
+#IntegrationHalfCircle .halfCircle img.vector {
+  width: 540px;
+  height: 270px;
+}
+#IntegrationHalfCircle .halfCircle .collection {
+  display: flex;
+  flex-direction: column;
+  gap: 62px;
+  position: absolute;
+  top: 40px;
+  left: 46px;
+}
+#IntegrationHalfCircle .halfCircle .collection .part1 ul {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+}
+#IntegrationHalfCircle .halfCircle .collection .part1 ul li img {
+  width: 64px;
+  height: 64px;
+}
+#IntegrationHalfCircle .halfCircle .collection .part2 ul {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+}
+#IntegrationHalfCircle .halfCircle .collection .part2 ul li img {
+  width: 64px;
+  height: 64px;
+}
+
+@media screen and (max-width: 1100px) {
+  #IntegrationHalfCircle {
+    width: 90%;
+    margin: 80px auto;
+    border-top: 1px solid rgb(243, 244, 246);
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+  }
+  #IntegrationHalfCircle .integration {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 20px 0;
+    width: 328px;
+    height: 222px;
+  }
+  #IntegrationHalfCircle .integration h5 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: -2.5%;
+    color: rgb(17, 24, 39);
+  }
+  #IntegrationHalfCircle .integration p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(17, 24, 39);
+  }
+  #IntegrationHalfCircle .halfCircle {
+    position: relative;
+    width: unset;
+    height: unset;
+  }
+  #IntegrationHalfCircle .halfCircle img.vector {
+    width: 328px;
+    height: 164px;
+  }
+  #IntegrationHalfCircle .halfCircle .collection {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    position: absolute;
+    top: 17px;
+    left: 27px;
+  }
+  #IntegrationHalfCircle .halfCircle .collection .part1 ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  #IntegrationHalfCircle .halfCircle .collection .part1 ul li img {
+    width: 39.02px;
+    height: 38.87px;
+  }
+  #IntegrationHalfCircle .halfCircle .collection .part2 ul {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+  }
+  #IntegrationHalfCircle .halfCircle .collection .part2 ul li img {
+    width: 39.02px;
+    height: 38.87px;
+  }
+}
+@media screen and (max-width: 700px) {
+  #IntegrationHalfCircle {
+    width: 90%;
+    margin: 80px auto 40px auto;
+    border-top: 1px solid rgb(243, 244, 246);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  #IntegrationHalfCircle .integration {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 20px 0;
+    width: 100%;
+    height: 176px;
+  }
+  #IntegrationHalfCircle .integration h5 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: -2.5%;
+    color: rgb(17, 24, 39);
+  }
+  #IntegrationHalfCircle .integration p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(17, 24, 39);
+  }
+  #IntegrationHalfCircle .halfCircle {
+    position: relative;
+    width: unset;
+    height: unset;
+  }
+  #IntegrationHalfCircle .halfCircle img.vector {
+    width: 100%;
+    height: 168px;
+  }
+  #IntegrationHalfCircle .halfCircle .collection {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    position: absolute;
+    top: 17px;
+    left: 27px;
+  }
+  #IntegrationHalfCircle .halfCircle .collection .part1 ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  #IntegrationHalfCircle .halfCircle .collection .part1 ul li img {
+    width: 39.99px;
+    height: 40.16px;
+  }
+  #IntegrationHalfCircle .halfCircle .collection .part2 ul {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+  }
+  #IntegrationHalfCircle .halfCircle .collection .part2 ul li img {
+    width: 39.99px;
+    height: 40.16px;
+  }
+}
+#ManageMobile {
+  width: 100%;
+  background-color: rgb(29, 181, 190);
+}
+#ManageMobile .backGr {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  gap: 32px;
+}
+#ManageMobile .backGr .manage {
+  width: 50%;
+  margin: 111px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+#ManageMobile .backGr .manage .textForManage {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+#ManageMobile .backGr .manage .textForManage h4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -2.5%;
+  color: rgb(17, 24, 39);
+}
+#ManageMobile .backGr .manage .textForManage p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgb(17, 24, 39);
+}
+#ManageMobile .backGr .manage .Applogos {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+#ManageMobile .backGr .manage .Applogos p {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgb(17, 24, 39);
+}
+#ManageMobile .backGr .manage .Applogos .GoogleApple {
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px;
+}
+#ManageMobile .backGr .mobile {
+  width: 50%;
+}
+#ManageMobile .backGr .mobile .far {
+  display: none;
+}
+#ManageMobile .backGr .mobile .front {
+  display: none;
+}
+
+@media screen and (max-width: 1330px) {
+  #ManageMobile br {
+    display: none;
+  }
+  #ManageMobile .mobile {
+    width: unset;
+  }
+  #ManageMobile .manage {
+    width: unset;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #ManageMobile .backGr {
+    flex-wrap: wrap;
+    gap: unset;
+  }
+  #ManageMobile .backGr .manage {
+    width: 100%;
+  }
+  #ManageMobile .backGr .mobile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 769px) {
+  #ManageMobile {
+    width: 100%;
+    background-color: rgb(29, 181, 190);
+  }
+  #ManageMobile .backGr {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+  }
+  #ManageMobile .backGr .manage {
+    width: 100%;
+    margin: 111px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+  #ManageMobile .backGr .manage .textForManage {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  #ManageMobile .backGr .manage .textForManage h4 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: -2.5%;
+    color: rgb(17, 24, 39);
+  }
+  #ManageMobile .backGr .manage .textForManage p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(17, 24, 39);
+  }
+  #ManageMobile .backGr .manage .Applogos {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  #ManageMobile .backGr .manage .Applogos p {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(17, 24, 39);
+  }
+  #ManageMobile .backGr .manage .Applogos .GoogleApple {
+    display: flex;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+  #ManageMobile .backGr .mobile {
+    width: 100%;
+  }
+  #ManageMobile .backGr .mobile .near {
+    display: none;
+  }
+  #ManageMobile .backGr .mobile .far {
+    display: inline-block;
+  }
+  #ManageMobile .backGr .mobile .front {
+    display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  #ManageMobile {
+    width: 100%;
+    background-color: rgb(29, 181, 190);
+  }
+  #ManageMobile .backGr {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+  }
+  #ManageMobile .backGr .manage {
+    width: 100%;
+    margin: 111px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+  #ManageMobile .backGr .manage .textForManage {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  #ManageMobile .backGr .manage .textForManage h4 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: -2.5%;
+    color: rgb(17, 24, 39);
+  }
+  #ManageMobile .backGr .manage .textForManage p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(17, 24, 39);
+  }
+  #ManageMobile .backGr .manage .Applogos {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  #ManageMobile .backGr .manage .Applogos p {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(17, 24, 39);
+  }
+  #ManageMobile .backGr .manage .Applogos .GoogleApple {
+    display: flex;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+  #ManageMobile .backGr .mobile {
+    width: 100%;
+  }
+  #ManageMobile .backGr .mobile .near {
+    display: none;
+  }
+  #ManageMobile .backGr .mobile .far {
+    display: none;
+  }
+  #ManageMobile .backGr .mobile .front {
+    display: inline-block;
+  }
+}
+footer {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+}
+footer .FeaturesAppPlay {
+  width: 90%;
+  padding: 64px 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+footer .FeaturesAppPlay .features {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+footer .FeaturesAppPlay .features .AboveUnder {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+footer .FeaturesAppPlay .features .AboveUnder ul.above {
+  display: flex;
+  justify-content: flex-start;
+  gap: 24px;
+}
+footer .FeaturesAppPlay .features .AboveUnder ul.above li {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(255, 255, 255);
+}
+footer .FeaturesAppPlay .features .AboveUnder ul.under {
+  display: flex;
+  justify-content: flex-start;
+  gap: 24px;
+}
+footer .FeaturesAppPlay .features .AboveUnder ul.under li {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(255, 255, 255);
+}
+footer .FeaturesAppPlay .features p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgb(209, 213, 219);
+}
+footer .FeaturesAppPlay .AppPlay {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+footer .FeaturesAppPlay .AppPlay p {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgb(209, 213, 219);
+}
+
+@media screen and (max-width: 650px) {
+  footer .FeaturesAppPlay {
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+  footer .FeaturesAppPlay .features ul.under {
+    flex-wrap: wrap;
+    gap: 25px !important;
+  }
+}/*# sourceMappingURL=style.css.map */
